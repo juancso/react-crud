@@ -1,0 +1,34 @@
+# Arquivos e diretórios específicos
+node_modules/
+.DS_Store
+.env
+
+# Arquivos de build
+/build
+/dist
+
+# Logs e arquivos temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.log.*
+*.swp
+
+# Cache
+.cache
+*.cache
+*.css.map
+*.html.map
+
+# Dependências de desenvolvimento
+/dev
+
+# Arquivos de configuração locais
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos gerados
+coverage/
